@@ -1,0 +1,24 @@
+# GroundItemCap - keeps the number of dropped items on the ground under a limit.
+# When the server-wide count is above the limit, the oldest items are removed first.
+# Apply changes with /grounditemcap reload (no restart needed).
+
+# Maximum number of dropped item entities on the ground, counted across all worlds below.
+limit: 1000
+
+# How often the items are counted, in seconds.
+check-interval-seconds: 5
+
+# Items with custom data (renamed, enchanted, damaged, with contents such as a filled shulker box)
+# are never removed. They still count toward the limit.
+protect-special-items: true
+
+# Items in these worlds are not counted and never removed.
+ignored-worlds: []
+#  - world_the_end
+
+# Write "Removed N items" to the console (at most once per minute).
+log-removals: true
+
+# Language for the console and for players whose client language has no messages file.
+# Players see messages_<their language>.properties when it exists (bundled: en, tr).
+default-language: en

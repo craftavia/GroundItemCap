@@ -1,0 +1,11 @@
+name: GroundItemCap
+version: '${version}'
+main: net.craftavia.grounditemcap.GroundItemCapPlugin
+api-version: '1.21.4'
+description: Keeps the number of dropped items on the ground under a limit by removing the oldest ones.
+authors: [Craftavia]
+website: https://craftavia.net
+permissions:
+  grounditemcap.admin:
+    description: See the item count and reload the configuration.
+    default: op
