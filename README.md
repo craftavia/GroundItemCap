@@ -7,6 +7,8 @@ and despawn items, but it has no server-wide limit. GroundItemCap counts the dro
 and, when the total is over your limit, removes the oldest ones until it is back under it. Fresh drops and
 items with custom data are left alone.
 
+**Download:** [Hangar](https://hangar.papermc.io/mrpunky/GroundItemCap) · [GitHub Releases](https://github.com/craftavia/GroundItemCap/releases)
+
 ## Features
 
 - **One server-wide limit** across all worlds (or all worlds except the ones you ignore).
@@ -76,6 +78,8 @@ The jar is written to `build/libs/`.
 Made by the Craftavia team, used on play.craftavia.net, https://craftavia.net
 
 ## Türkçe
+
+**İndir:** [Hangar](https://hangar.papermc.io/mrpunky/GroundItemCap) · [GitHub Releases](https://github.com/craftavia/GroundItemCap/releases)
 
 GroundItemCap, sunucudaki **yerde duran eşya sayısına üst sınır** koyan ücretsiz bir Paper eklentisidir.
 Yerdeki toplam eşya limiti geçince en eski eşyalardan başlayarak siler. İsimli, büyülü, hasarlı eşyalara ve
